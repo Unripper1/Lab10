@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Null {
     static int f(int a, int b){
-        if(a>b+1) return 0;
+        if(a>b+1) return 10;
         if(a==0 || b==0) return 1;
         return f(a,b-1)+f(a-1,b-1);
     }

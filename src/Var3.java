@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Var3 {
     static void func(int a){
         if(a==0) return;
-        func(a/10);
+        func(a/100);
         int k=a%10;
         System.out.println(k+ " ");
     }
